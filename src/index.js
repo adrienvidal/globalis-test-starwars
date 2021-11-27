@@ -1,3 +1,3 @@
 // Test import of styles
-import '@/styles/index.scss'
+import '@/assets/styles/index.scss'
 import '@/index.html'
