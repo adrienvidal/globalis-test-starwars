@@ -23,6 +23,14 @@ module.exports = merge(common, {
 
   module: {
     rules: [
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader'
+          }
+        ]
+      },
       // Styles: Inject CSS into the head with source maps
       {
         test: /\.(scss|css)$/,
