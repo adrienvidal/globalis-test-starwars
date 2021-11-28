@@ -1,7 +1,9 @@
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.ttf');
+  font-family: 'OpenSansRegular';
+  src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @import 'variables';
-@import 'scaffolding';
+@import 'reset';
+@import 'main';
+@import 'layout/layout';
