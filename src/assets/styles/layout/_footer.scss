@@ -34,7 +34,7 @@
     margin-bottom: 40px;
     display: none;
 
-    @media only screen and (min-width: 1025px) {
+    @media only screen and (min-width: $desktop) {
       display: block;
     }
   }
@@ -50,7 +50,7 @@
     font-size: 1.2rem;
     line-height: 3rem;
 
-    @media only screen and (min-width: 1025px) {
+    @media only screen and (min-width: $desktop) {
       grid-template-columns: repeat(3, 1fr);
     }
   }
@@ -61,7 +61,7 @@
     justify-content: space-around;
     margin-top: 70px;
 
-    @media only screen and (min-width: 1025px) {
+    @media only screen and (min-width: $desktop) {
       grid-column: auto;
       display: block;
       margin-top: 0;

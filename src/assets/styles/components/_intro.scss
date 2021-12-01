@@ -5,14 +5,14 @@
   max-width: 780px;
   padding: 0 30px;
 
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: $desktop) {
     padding: 0;
   }
 
   &__desc {
     line-height: 2.2rem;
 
-    @media only screen and (min-width: 1025px) {
+    @media only screen and (min-width: $desktop) {
       width: 50%;
     }
   }
@@ -32,7 +32,7 @@
     text-align: center;
     display: none;
 
-    @media only screen and (min-width: 1025px) {
+    @media only screen and (min-width: $desktop) {
       display: block;
     }
   }
