@@ -104,6 +104,11 @@
     }
   }
 
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
+
   &__active {
     transform: translateX(0);
 
