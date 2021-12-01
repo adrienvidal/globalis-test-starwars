@@ -1,19 +1,17 @@
 .header {
-  background-image: url('../images/header-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   overflow: hidden;
-  height: 400px;
+  &__bg {
+    background-image: url('../images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
 
-  @media only screen and (min-width: $desktop) {
-    background-image: url('../images/header-bg-2x.png');
-    height: 500px;
+    @media only screen and (min-width: $desktop) {
+      background-image: url('../images/header-bg-2x.png');
+      height: 500px;
+    }
   }
-
-  /*   &__bg {
-
-  } */
 
   &__logo {
     position: relative;
