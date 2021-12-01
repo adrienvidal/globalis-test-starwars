@@ -4,6 +4,7 @@
   margin: 10rem auto;
   max-width: 780px;
   padding: 0 30px;
+  align-items: flex-start;
 
   @media only screen and (min-width: $desktop) {
     padding: 0;
@@ -34,6 +35,12 @@
 
     @media only screen and (min-width: $desktop) {
       display: block;
+    }
+
+    &--sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 70px;
     }
   }
 }
