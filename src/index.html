@@ -13,8 +13,8 @@
       <header class="header">
         <nav class="nav"><!-- nav__active -->
           <button type="button" class="nav__menu">
-            <img class="nav__burger nav__burger--open" src="assets/images/menu.svg" alt="menu-open">
-            <img class="nav__burger nav__burger--close" src="assets/images/close.svg" alt="menu-close">
+            <img class="nav__burger nav__burger--open" src="assets/images/menu.svg" alt="menu-open" height="25">
+            <img class="nav__burger nav__burger--close" src="assets/images/close.svg" alt="menu-close" height="25">
           </button>
           <ul class="nav__list">
             <li class="nav__list-item">Le côté lumineux</li>
@@ -27,7 +27,7 @@
         </nav>
         <img class="header__logo" src="assets/images/header.png" alt="Logo">
       </header>
-      <article class="intro">
+      <section class="intro">
         <div class="intro__desc">
           <h1 class="intro__desc-title">Star Wars, The Force Awakens</h1>
           <p class="intro__desc-text">Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et l’oppression. Les membres de l'Alliance rebelle, devenus la « Résistance », combattent les vestiges de l'Empire réunis sous la bannière du « Premier Ordre ».</p>
@@ -40,14 +40,14 @@
         <div class="intro__image">
           <img src="./assets/images/ad.jpg" alt="Pub">
         </div>
-      </article>
-      <article class="banner">
+      </section>
+      <section class="banner">
         <picture>
           <source media="(min-width:1025px)" srcset="./assets/images/kiloren-2x.jpg">
-          <img class="banner__img" src="./assets/images/kiloren.jpg" alt="banner kiloren">
+          <img class="banner__img" src="./assets/images/kiloren.jpg" alt="banner kiloren" height="500">
         </picture>
-      </article>
-      <article class="content">
+      </section>
+      <section class="content">
         <h2 class="content__title">A long time ago, in a galaxy far, far away…</h2>
           <p class="content__text">
             <picture>
@@ -63,15 +63,15 @@
             <li>- Le film a développé un univers cohérent, avec, comme préoccupation constante, autant la création d'une ambiance que l'action proprement dite.</li>
             <li>- La musique, composée par John Williams, introduit des thèmes récurrents et des leitmotivs (procédé classique mais renforçant la cohérence).</li>
           </ul>
-      </article>
+      </section>
       <footer class="footer">
         <div class="footer__banner">
           <picture>
             <source media="(min-width:1025px)" srcset="./assets/images/stormtroopers-2x.jpg">
-            <img class="footer__banner-img" src="./assets/images/stormtroopers.jpg" alt="stormtroopers">
+            <img class="footer__banner-img" src="./assets/images/stormtroopers.jpg" alt="stormtroopers" height="250">
           </picture>
         </div>
-        <div class="footer__content">
+        <article class="footer__content">
           <h3 class="footer__content-title"><strong>TM Lucasfilm</strong> Ltd. All Rights Reserved.</h3>
             <div class="footer__content-info">
               <div class="footer__content-info-block">
@@ -97,7 +97,7 @@
                 </ul>
               </div>
             </div>
-        </div>
+        </article>
       </footer>
     </main>
   </body>
