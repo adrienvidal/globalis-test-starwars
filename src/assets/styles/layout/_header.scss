@@ -16,6 +16,11 @@
   padding: 20px 0;
   font-size: 1.4rem;
   color: $white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $black-transparent;
 
   &__list {
     display: flex;

@@ -5,6 +5,10 @@ html {
   color: $black;
 }
 
+body {
+  position: relative;
+}
+
 .clear-float {
   clear: both;
 }
