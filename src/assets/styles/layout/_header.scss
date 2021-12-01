@@ -1,0 +1,33 @@
+.header {
+  background-image: url('../images/header.png');
+  // background-image: url('../images/header-bg-2x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+  &__logo {
+    width: 100%;
+  }
+}
+
+.nav {
+  font-family: $OpenSansBold;
+  padding: 20px 0;
+  font-size: 1.4rem;
+  color: $white;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__list-item {
+    margin-right: 40px;
+    text-transform: uppercase;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

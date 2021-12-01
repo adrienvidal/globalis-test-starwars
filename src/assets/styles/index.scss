@@ -2,6 +2,10 @@
   font-family: 'OpenSansRegular';
   src: url('../fonts/OpenSans-Regular.ttf');
 }
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
 
 @import 'variables';
 @import 'reset';
