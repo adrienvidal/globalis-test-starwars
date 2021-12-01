@@ -4,3 +4,15 @@ html {
   background: $white;
   color: $black;
 }
+
+.clear-float {
+  clear: both;
+}
+
+i {
+  font-family: $OpenSansLight;
+}
+
+strong {
+  font-weight: bold;
+}
