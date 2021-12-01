@@ -1,0 +1,11 @@
+.banner {
+  overflow: hidden;
+  max-height: 800px;
+  margin-bottom: 100px;
+
+  &__img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+  }
+}
