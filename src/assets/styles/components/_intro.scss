@@ -2,11 +2,12 @@
   display: flex;
   font-size: 1.8rem;
   padding: 10rem 0;
+  width: 780px;
+  margin-left: auto;
+  margin-right: auto;
 
   &__desc {
     width: 50%;
-    padding-left: 122px;
-    padding-right: 20px;
     line-height: 2.2rem;
   }
 
@@ -22,6 +23,6 @@
 
   &__image {
     width: 50%;
-    padding-left: 20px;
+    text-align: center;
   }
 }
