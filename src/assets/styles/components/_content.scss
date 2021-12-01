@@ -4,6 +4,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
+  padding: 0 30px;
+
+  @media only screen and (min-width: 1025px) {
+    padding: 0;
+  }
 
   &__title {
     font-size: 3.2rem;
@@ -18,8 +23,13 @@
   }
 
   &__text-img {
-    float: left;
-    margin: 0 15px 15px 0;
+    display: block;
+    margin: 0 auto 40px auto;
+
+    @media only screen and (min-width: 1025px) {
+      float: left;
+      margin: 0 15px 15px 0;
+    }
   }
 
   &__list {

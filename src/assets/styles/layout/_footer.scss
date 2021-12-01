@@ -32,6 +32,11 @@
     font-size: 1.4rem;
     text-align: center;
     margin-bottom: 40px;
+    display: none;
+
+    @media only screen and (min-width: 1025px) {
+      display: block;
+    }
   }
 
   &__content-link {
@@ -40,22 +45,39 @@
 
   &__content-info {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     text-align: center;
     font-size: 1.2rem;
     line-height: 3rem;
+
+    @media only screen and (min-width: 1025px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   &__content-social {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+
+    @media only screen and (min-width: 1025px) {
+      grid-column: auto;
+      display: block;
+      margin-top: 0;
+    }
+  }
+
+  &__content-social-list {
     display: flex;
     justify-content: center;
   }
 
-  &__content-social-item:not(:last-child) {
+  &__content-social-list-item:not(:last-child) {
     margin-right: 20px;
   }
 
-  &__content-social-icon {
+  &__content-social-list-icon {
     &--instagram {
       filter: invert(62%) sepia(8%) saturate(22%) hue-rotate(77deg) brightness(98%) contrast(96%);
     }
