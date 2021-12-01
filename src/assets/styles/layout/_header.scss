@@ -1,13 +1,19 @@
 .header {
-  background-image: url('../images/header.png');
-  // background-image: url('../images/header-bg-2x.png');
+  background-image: url('../images/header-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
+  overflow: hidden;
+  min-height: 500px;
+
+  @media only screen and (min-width: 1025px) {
+    background-image: url('../images/header-bg-2x.png');
+  }
 
   &__logo {
-    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
   }
 }
 
@@ -21,6 +27,7 @@
   left: 0;
   right: 0;
   background-color: $black-transparent;
+  z-index: 100;
 
   &__list {
     display: flex;
